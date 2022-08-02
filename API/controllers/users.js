@@ -1,4 +1,4 @@
-const User = require('..models/users')
+const User = require('../models/userSchema')
 const { useSearchParams } = require('react-router-dom')
 require('dotenv').config()
 

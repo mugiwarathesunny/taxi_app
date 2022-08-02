@@ -1,5 +1,5 @@
 const route = require('express').Router()
-const userRoute = require('../controllers/user');
+const userRoute = require('../controllers/users');
 
 route.post('/api/vl/createuser', userRoute.createUser)
 route.get('/api/vl/getusers', userRoute.getAllUser)
