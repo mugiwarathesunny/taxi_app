@@ -18,7 +18,7 @@ app.get('/', (req,res) => {
     })
 })
 
-app.use('/api/v1', route)
+app.use(route)
 
 app.use(cors())
 
