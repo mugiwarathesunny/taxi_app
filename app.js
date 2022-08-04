@@ -11,10 +11,10 @@ app.use(express.urlencoded({ extended: true}));
 
 require('./api/db/db').connect()
 
-app.get('/', (req,res) => {
+app.get('/', (req, res) => {
     return res.json({
         status: 'Success',
-        message: 'Welcome toMRSOFT'
+        message: 'Welcome to MRSOFT'
     })
 })
 
