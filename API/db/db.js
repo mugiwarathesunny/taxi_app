@@ -5,8 +5,8 @@ module.exports = {
     connect: () => {
         mongoose.connect(
             process.env.DB_URI_ONLINE, {
+                useNewUrlParser: true,
             useUnifiedTopology: true,
-            useNewUrlParser: true,
         }
         )
         const connection = mongoose.connection
